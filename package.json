@@ -1,0 +1,42 @@
+{
+  "name": "sample-hackernews-client-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^4.0.5",
+    "@hot-loader/react-dom": "^16.13.0",
+    "antd": "^4.1.0",
+    "axios": "^0.19.2",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.20",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-act": "^1.8.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@neutrinojs/airbnb": "^9.1.0",
+    "@neutrinojs/jest": "^9.1.0",
+    "@neutrinojs/react": "^9.1.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.2.4",
+    "neutrino": "^9.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
