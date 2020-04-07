@@ -8,14 +8,30 @@ module.exports = {
   },
   use: [
     (neutrino) => {
-      neutrino.config.resolve.alias.set('react-dom', '@hot-loader/react-dom');
+      if (process.env.NODE_ENV !== 'test') {
+        neutrino.config.resolve.alias.set('react-dom', '@hot-loader/react-dom');
+      }
     },
-    airbnb(),
+    airbnb({
+      eslint: {
+        baseConfig: {
+          rules: {
+            'react/jsx-props-no-spreading': 'off',
+            'import/prefer-default-export': 'off',
+          },
+        },
+      },
+    }),
     react({
       html: {
         title: 'sample-hackernews-client-react-app'
       }
     }),
-    jest(),
+    jest({
+      clearMocks: true,
+      testRegex: './.*(_test|_spec|\.test|\.spec)\.(mjs|jsx|js)$',
+      setupFiles: ['jest-date-mock'],
+      setupFilesAfterEnv: ['./tests/setup.js'],
+    }),
   ],
 };

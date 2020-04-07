@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react';
+import React, { useEffect, useCallback, useState } from 'react';
 import PropTypes from 'prop-types';
 import { List, Input } from 'antd';
 import debounce from 'lodash.debounce';
@@ -19,8 +19,11 @@ const NewsList = ({
     getNewsAsync({ page: 1 });
   }, [getNewsAsync]);
 
+  const [searchQuery, setSearchQuery] = useState(undefined);
+
   const handleSearchDelay = useCallback(debounce((value) => {
-    getNewsAsync({ page: currentPage, searchQuery: value });
+    setSearchQuery(value);
+    getNewsAsync({ page: 1, searchQuery: value });
   }, 500), []);
 
   const handleSearch = (e) => {
@@ -29,14 +32,14 @@ const NewsList = ({
 
   return (
     <>
-      <Search size="large" placeholder="input search text" onChange={handleSearch} enterButton />
+      <Search size="large" id="searchTxt" placeholder="input search text" onChange={handleSearch} enterButton />
       <List
         loading={isLoadingNews}
         itemLayout="vertical"
         size="large"
         pagination={{
           onChange: (page) => {
-            getNewsAsync({ page });
+            getNewsAsync({ page, searchQuery });
           },
           showSizeChanger: false,
           pageSize: PAGE_SIZE,

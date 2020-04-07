@@ -37,7 +37,6 @@ const initialState = {
   currentNewsItems: [],
   currentPage: 1,
   currentTotal: 0,
-  maximumPage: 0,
   isLoadingNews: false,
 };
 

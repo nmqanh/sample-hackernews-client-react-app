@@ -1,0 +1,1073 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewsList /> snapshots expects to render correctly with given list of items 1`] = `
+<div>
+  <span
+    class="ant-input-search ant-input-search-enter-button ant-input-search-large ant-input-group-wrapper ant-input-group-wrapper-lg"
+  >
+    <span
+      class="ant-input-wrapper ant-input-group"
+    >
+      <input
+        class="ant-input ant-input-lg"
+        id="searchTxt"
+        placeholder="input search text"
+        type="text"
+        value=""
+      />
+      <span
+        class="ant-input-group-addon"
+      >
+        <button
+          class="ant-btn ant-input-search-button ant-btn-primary ant-btn-lg"
+          type="button"
+        >
+          <span
+            aria-label="search"
+            class="anticon anticon-search"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="search"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+              />
+            </svg>
+          </span>
+        </button>
+      </span>
+    </span>
+  </span>
+  <div
+    class="ant-list ant-list-vertical ant-list-lg ant-list-split ant-list-something-after-last-item"
+  >
+    <div
+      class="ant-spin-nested-loading"
+    >
+      <div
+        class="ant-spin-container"
+      >
+        <ul
+          class="ant-list-items"
+        >
+          <li
+            class="ant-list-item ant-list-item-no-flex"
+          >
+            <div
+              class="ant-list-item-meta"
+            >
+              <div
+                class="ant-list-item-meta-content"
+              >
+                <h4
+                  class="ant-list-item-meta-title"
+                >
+                  <a
+                    href="http://news1.test"
+                    target="blank"
+                  >
+                    News 1
+                  </a>
+                </h4>
+                <div
+                  class="ant-list-item-meta-description"
+                >
+                  <a
+                    href="http://news1.test"
+                    target="blank"
+                  >
+                    http://news1.test
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-list-item-action"
+            >
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=1"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="star"
+                    class="anticon anticon-star"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="star"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                      />
+                    </svg>
+                  </span>
+                  10
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/user?id=Author 1"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="user"
+                    class="anticon anticon-user"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="user"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                      />
+                    </svg>
+                  </span>
+                  Author 1
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=1"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="clock-circle"
+                    class="anticon anticon-clock-circle"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="clock-circle"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                      />
+                      <path
+                        d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
+                      />
+                    </svg>
+                  </span>
+                  5 days ago
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=1"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="message"
+                    class="anticon anticon-message"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="message"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M464 512a48 48 0 1096 0 48 48 0 10-96 0zm200 0a48 48 0 1096 0 48 48 0 10-96 0zm-400 0a48 48 0 1096 0 48 48 0 10-96 0zm661.2-173.6c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 00-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 00-142 96.5c-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 00112 714v152a46 46 0 0046 46h152.1A449.4 449.4 0 00510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 00142.8-95.2c41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-.6 99.6-39.7 192.9-110.1 262.7z"
+                      />
+                    </svg>
+                  </span>
+                  6
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li
+            class="ant-list-item ant-list-item-no-flex"
+          >
+            <div
+              class="ant-list-item-meta"
+            >
+              <div
+                class="ant-list-item-meta-content"
+              >
+                <h4
+                  class="ant-list-item-meta-title"
+                >
+                  <a
+                    href="http://news2.test"
+                    target="blank"
+                  >
+                    News 2
+                  </a>
+                </h4>
+                <div
+                  class="ant-list-item-meta-description"
+                >
+                  <a
+                    href="http://news2.test"
+                    target="blank"
+                  >
+                    http://news2.test
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-list-item-action"
+            >
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=2"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="star"
+                    class="anticon anticon-star"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="star"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                      />
+                    </svg>
+                  </span>
+                  20
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/user?id=Author 2"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="user"
+                    class="anticon anticon-user"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="user"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                      />
+                    </svg>
+                  </span>
+                  Author 2
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=2"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="clock-circle"
+                    class="anticon anticon-clock-circle"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="clock-circle"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                      />
+                      <path
+                        d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
+                      />
+                    </svg>
+                  </span>
+                  4 days ago
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=2"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="message"
+                    class="anticon anticon-message"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="message"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M464 512a48 48 0 1096 0 48 48 0 10-96 0zm200 0a48 48 0 1096 0 48 48 0 10-96 0zm-400 0a48 48 0 1096 0 48 48 0 10-96 0zm661.2-173.6c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 00-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 00-142 96.5c-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 00112 714v152a46 46 0 0046 46h152.1A449.4 449.4 0 00510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 00142.8-95.2c41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-.6 99.6-39.7 192.9-110.1 262.7z"
+                      />
+                    </svg>
+                  </span>
+                  12
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li
+            class="ant-list-item ant-list-item-no-flex"
+          >
+            <div
+              class="ant-list-item-meta"
+            >
+              <div
+                class="ant-list-item-meta-content"
+              >
+                <h4
+                  class="ant-list-item-meta-title"
+                >
+                  <a
+                    href="http://news3.test"
+                    target="blank"
+                  >
+                    News 3
+                  </a>
+                </h4>
+                <div
+                  class="ant-list-item-meta-description"
+                >
+                  <a
+                    href="http://news3.test"
+                    target="blank"
+                  >
+                    http://news3.test
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-list-item-action"
+            >
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=3"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="star"
+                    class="anticon anticon-star"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="star"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                      />
+                    </svg>
+                  </span>
+                  30
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/user?id=Author 3"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="user"
+                    class="anticon anticon-user"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="user"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                      />
+                    </svg>
+                  </span>
+                  Author 3
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=3"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="clock-circle"
+                    class="anticon anticon-clock-circle"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="clock-circle"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                      />
+                      <path
+                        d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
+                      />
+                    </svg>
+                  </span>
+                  3 days ago
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=3"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="message"
+                    class="anticon anticon-message"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="message"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M464 512a48 48 0 1096 0 48 48 0 10-96 0zm200 0a48 48 0 1096 0 48 48 0 10-96 0zm-400 0a48 48 0 1096 0 48 48 0 10-96 0zm661.2-173.6c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 00-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 00-142 96.5c-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 00112 714v152a46 46 0 0046 46h152.1A449.4 449.4 0 00510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 00142.8-95.2c41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-.6 99.6-39.7 192.9-110.1 262.7z"
+                      />
+                    </svg>
+                  </span>
+                  18
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li
+            class="ant-list-item ant-list-item-no-flex"
+          >
+            <div
+              class="ant-list-item-meta"
+            >
+              <div
+                class="ant-list-item-meta-content"
+              >
+                <h4
+                  class="ant-list-item-meta-title"
+                >
+                  <a
+                    href="http://news4.test"
+                    target="blank"
+                  >
+                    News 4
+                  </a>
+                </h4>
+                <div
+                  class="ant-list-item-meta-description"
+                >
+                  <a
+                    href="http://news4.test"
+                    target="blank"
+                  >
+                    http://news4.test
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-list-item-action"
+            >
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=4"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="star"
+                    class="anticon anticon-star"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="star"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                      />
+                    </svg>
+                  </span>
+                  40
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/user?id=Author 4"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="user"
+                    class="anticon anticon-user"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="user"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                      />
+                    </svg>
+                  </span>
+                  Author 4
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=4"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="clock-circle"
+                    class="anticon anticon-clock-circle"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="clock-circle"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                      />
+                      <path
+                        d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
+                      />
+                    </svg>
+                  </span>
+                  2 days ago
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=4"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="message"
+                    class="anticon anticon-message"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="message"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M464 512a48 48 0 1096 0 48 48 0 10-96 0zm200 0a48 48 0 1096 0 48 48 0 10-96 0zm-400 0a48 48 0 1096 0 48 48 0 10-96 0zm661.2-173.6c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 00-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 00-142 96.5c-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 00112 714v152a46 46 0 0046 46h152.1A449.4 449.4 0 00510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 00142.8-95.2c41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-.6 99.6-39.7 192.9-110.1 262.7z"
+                      />
+                    </svg>
+                  </span>
+                  24
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li
+            class="ant-list-item ant-list-item-no-flex"
+          >
+            <div
+              class="ant-list-item-meta"
+            >
+              <div
+                class="ant-list-item-meta-content"
+              >
+                <h4
+                  class="ant-list-item-meta-title"
+                >
+                  <a
+                    href="http://news5.test"
+                    target="blank"
+                  >
+                    News 5
+                  </a>
+                </h4>
+                <div
+                  class="ant-list-item-meta-description"
+                >
+                  <a
+                    href="http://news5.test"
+                    target="blank"
+                  >
+                    http://news5.test
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-list-item-action"
+            >
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=5"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="star"
+                    class="anticon anticon-star"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="star"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                      />
+                    </svg>
+                  </span>
+                  50
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/user?id=Author 5"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="user"
+                    class="anticon anticon-user"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="user"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                      />
+                    </svg>
+                  </span>
+                  Author 5
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=5"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="clock-circle"
+                    class="anticon anticon-clock-circle"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="clock-circle"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                      />
+                      <path
+                        d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
+                      />
+                    </svg>
+                  </span>
+                  a day ago
+                </a>
+                <em
+                  class="ant-list-item-action-split"
+                />
+              </li>
+              <li>
+                <a
+                  href="https://news.ycombinator.com/item?id=5"
+                  style="color: rgba(0, 0, 0, 0.45);"
+                  target="blank"
+                >
+                  <span
+                    aria-label="message"
+                    class="anticon anticon-message"
+                    role="img"
+                    style="margin-right: 8px;"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="message"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M464 512a48 48 0 1096 0 48 48 0 10-96 0zm200 0a48 48 0 1096 0 48 48 0 10-96 0zm-400 0a48 48 0 1096 0 48 48 0 10-96 0zm661.2-173.6c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 00-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 00-142 96.5c-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 00112 714v152a46 46 0 0046 46h152.1A449.4 449.4 0 00510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 00142.8-95.2c41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-.6 99.6-39.7 192.9-110.1 262.7z"
+                      />
+                    </svg>
+                  </span>
+                  30
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="ant-list-pagination"
+    >
+      <ul
+        class="ant-pagination"
+        unselectable="unselectable"
+      >
+        <li
+          aria-disabled="true"
+          class="ant-pagination-prev ant-pagination-disabled"
+          title="Previous Page"
+        >
+          <a
+            class="ant-pagination-item-link"
+            disabled=""
+          >
+            <span
+              aria-label="left"
+              class="anticon anticon-left"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="left"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                />
+              </svg>
+            </span>
+          </a>
+        </li>
+        <li
+          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          tabindex="0"
+          title="1"
+        >
+          <a>
+            1
+          </a>
+        </li>
+        <li
+          class="ant-pagination-item ant-pagination-item-2"
+          tabindex="0"
+          title="2"
+        >
+          <a>
+            2
+          </a>
+        </li>
+        <li
+          aria-disabled="false"
+          class="ant-pagination-next"
+          tabindex="0"
+          title="Next Page"
+        >
+          <a
+            class="ant-pagination-item-link"
+          >
+            <span
+              aria-label="right"
+              class="anticon anticon-right"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                />
+              </svg>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<NewsList /> snapshots expectss to render the shallow rendering correctly with given list of items 1`] = `
+<React.Fragment>
+  <Search
+    enterButton={true}
+    id="searchTxt"
+    onChange={[Function]}
+    placeholder="input search text"
+    size="large"
+  />
+  <List
+    bordered={false}
+    dataSource={
+      Array [
+        Object {
+          "author": "Author 1",
+          "created_at": "2020-04-01T03:09:30.000Z",
+          "num_comments": 6,
+          "objectID": "1",
+          "points": 10,
+          "title": "News 1",
+          "url": "http://news1.test",
+        },
+        Object {
+          "author": "Author 2",
+          "created_at": "2020-04-02T03:09:30.000Z",
+          "num_comments": 12,
+          "objectID": "2",
+          "points": 20,
+          "title": "News 2",
+          "url": "http://news2.test",
+        },
+        Object {
+          "author": "Author 3",
+          "created_at": "2020-04-03T03:09:30.000Z",
+          "num_comments": 18,
+          "objectID": "3",
+          "points": 30,
+          "title": "News 3",
+          "url": "http://news3.test",
+        },
+        Object {
+          "author": "Author 4",
+          "created_at": "2020-04-04T03:09:30.000Z",
+          "num_comments": 24,
+          "objectID": "4",
+          "points": 40,
+          "title": "News 4",
+          "url": "http://news4.test",
+        },
+        Object {
+          "author": "Author 5",
+          "created_at": "2020-04-05T03:09:30.000Z",
+          "num_comments": 30,
+          "objectID": "5",
+          "points": 50,
+          "title": "News 5",
+          "url": "http://news5.test",
+        },
+      ]
+    }
+    itemLayout="vertical"
+    loading={false}
+    pagination={
+      Object {
+        "current": 1,
+        "onChange": [Function],
+        "pageSize": 6,
+        "showSizeChanger": false,
+        "total": 10,
+      }
+    }
+    renderItem={[Function]}
+    size="large"
+    split={true}
+  />
+</React.Fragment>
+`;
