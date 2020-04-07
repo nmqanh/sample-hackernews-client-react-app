@@ -116,3 +116,4 @@ dist
 
 # Neutrino build directory
 build
+.DS_Store
