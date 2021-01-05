@@ -16,7 +16,7 @@
     "@ant-design/icons": "^4.0.5",
     "@hot-loader/react-dom": "^16.13.0",
     "antd": "^4.1.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "lodash.debounce": "^4.0.8",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
